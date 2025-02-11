@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cors());
 // The order of these routes are important
 app.get('/', (req, res) => {
-    res.send('Hello from UnQue');
+    res.send('Hello from UnQue Done Some Changes');
 })
 app.use('/users', userRoutes);
 app.use('/professor', professorRoutes);
